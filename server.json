@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.physea/liminality",
+  "title": "Liminality",
+  "description": "Breaks a hard question, decision, or multi-step task into its real sub-questions, grounds each to a real tool, and returns a checkable, reusable result — a scored decision frame or a grounded answer.",
+  "version": "1.0.0",
+  "websiteUrl": "https://physea.ai/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.physea.ai/mcp"
+    }
+  ]
+}
