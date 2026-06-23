@@ -51,3 +51,10 @@ Remote server, nothing to install:
 - Site & docs: https://physea.ai/mcp
 - Privacy: https://physea.ai/privacy-policy
 - By [Physea](https://physea.ai)
+
+---
+
+© 2026 Physea. All rights reserved. "Liminality", the name, and the logo are trademarks of
+Physea. This repository is a listing for a hosted service; no rights to the service, its
+software, or its data are granted. Use of the service is governed by the terms at
+https://physea.ai/mcp.
