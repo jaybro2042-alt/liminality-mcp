@@ -8,7 +8,15 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.physea.ai/mcp"
+      "url": "https://liminality.physea.ai/mcp",
+      "headers": [
+        {
+          "name": "X-API-Key",
+          "description": "Your Liminality API key (get one free at https://physea.ai/signup — first 3 solves on any key are free).",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
     }
   ],
   "repository": {
