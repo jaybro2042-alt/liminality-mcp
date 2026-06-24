@@ -3,12 +3,12 @@
   "name": "ai.physea/liminality",
   "title": "Liminality",
   "description": "Breaks a hard question or decision into grounded sub-questions and returns a checkable route.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://physea.ai/mcp",
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://liminality.physea.ai/mcp",
+      "url": "https://mcp.physea.ai/mcp",
       "headers": [
         {
           "name": "X-API-Key",
