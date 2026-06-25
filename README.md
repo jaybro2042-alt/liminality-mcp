@@ -31,13 +31,16 @@ Remote server, nothing to install:
 
 ## Tools
 
-- **`solve`** — the front door. Give it anything non-trivial; it works out the structure, grounds
-  it to real tools, and returns a worked result (a scored decision frame, or a synthesized answer).
-- `reduce_question` — decompose one question into its definitive sub-questions.
-- `decide_question` — a scored decision frame for a choice.
-- `ground_question` — match the parts to real, executable endpoints.
-- `research` — a deeper multi-source pass.
-- `get_my_context` — what's known about you / what you've connected.
+- **`solve`** — the front door. Give it anything non-trivial; it works out the structure
+  (decompose → ground to real tools → score the decision) and returns a worked result: a scored
+  decision frame for a choice, or a grounded answer for a question.
+- `research` — a deeper multi-source pass that pulls real information for a question.
+- `ask_form` / `apply_form` — when the answer depends on your specifics, it hands back a short
+  multiple-choice form; relay it, then `apply_form` folds the answers into a sharper result.
+- `get_my_context` — what's known about you and what you've connected.
+- `register_asset` / `set_preference` — tell it about your material and how you like results.
+- `report_feedback` / `report_outcome` — tell it how a result did, so the routes improve with use.
+- `composio_connect` — connect a tool so an action can run against it.
 
 ## Discovery / manifests
 
