@@ -3,24 +3,24 @@
   "name": "ai.physea/liminality",
   "title": "Liminality",
   "description": "Breaks a hard question or decision into grounded sub-questions and returns a checkable route.",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "websiteUrl": "https://physea.ai/mcp",
+  "repository": {
+    "url": "https://github.com/jaybro2042-alt/liminality-mcp",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://mcp.physea.ai/mcp",
+      "url": "https://liminality.physea.ai/mcp",
       "headers": [
         {
           "name": "X-API-Key",
-          "description": "Your Liminality API key (get one free at https://physea.ai/signup — first 3 solves on any key are free).",
+          "description": "Your Liminality API key (get one free at https://physea.ai/signup — first 50 solves on any key are free).",
           "isRequired": true,
           "isSecret": true
         }
       ]
     }
-  ],
-  "repository": {
-    "url": "https://github.com/jaybro2042-alt/liminality-mcp",
-    "source": "github"
-  }
+  ]
 }
