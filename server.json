@@ -3,7 +3,7 @@
   "name": "ai.physea/liminality",
   "title": "Liminality",
   "description": "Breaks a hard question or decision into grounded sub-questions and returns a checkable route.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "websiteUrl": "https://physea.ai/mcp",
   "repository": {
     "url": "https://github.com/jaybro2042-alt/liminality-mcp",

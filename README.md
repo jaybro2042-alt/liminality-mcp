@@ -21,10 +21,10 @@ over streamable HTTP. The first few asks on a new key are free.
 Remote server, nothing to install:
 
 ```json
-{ "mcpServers": { "liminality": { "url": "https://mcp.physea.ai/mcp" } } }
+{ "mcpServers": { "liminality": { "url": "https://liminality.physea.ai/mcp" } } }
 ```
 
-- **Endpoint:** `https://mcp.physea.ai/mcp`
+- **Endpoint:** `https://liminality.physea.ai/mcp`
 - **Transport:** streamable HTTP (remote/hosted)
 - **Auth:** API key (`X-API-Key` or `Authorization: Bearer`) or OAuth2. Free tier on a new key.
 - **Get a key / docs:** https://physea.ai/mcp
@@ -34,13 +34,17 @@ Remote server, nothing to install:
 - **`solve`** — the front door. Give it anything non-trivial; it works out the structure
   (decompose → ground to real tools → score the decision) and returns a worked result: a scored
   decision frame for a choice, or a grounded answer for a question.
-- `research` — a deeper multi-source pass that pulls real information for a question.
-- `ask_form` / `apply_form` — when the answer depends on your specifics, it hands back a short
-  multiple-choice form; relay it, then `apply_form` folds the answers into a sharper result.
-- `get_my_context` — what's known about you and what you've connected.
-- `register_asset` / `set_preference` — tell it about your material and how you like results.
-- `report_feedback` / `report_outcome` — tell it how a result did, so the routes improve with use.
-- `composio_connect` — connect a tool so an action can run against it.
+- **Discovery and settings:** `get_capabilities`, `get_settings`, `set_settings`
+- **Result detail:** `get_result_detail`, `export_result`
+- **Cross-session context:** `create_handoff`, `resume_handoff`, `compress_context`
+- **Agent delegation:** `create_delegation`, `resume_delegation`, `report_delegation`
+- **Grounding and priorities:** `register_asset`, `set_priorities`, `taxis`
+- **Research and connections:** `research`, `composio_connect`
+- **Forms and learning:** `ask_form`, `apply_form`, `report_feedback`, `report_outcome`, `apply_grade`
+- **Compatibility:** `manage` retains older context-lifecycle action routing.
+
+The hosted server exposes 23 caller-scoped tools. Raw engine methods, private chain-of-thought,
+owner administration, and other callers' stored content are not part of the public surface.
 
 ## Discovery / manifests
 
