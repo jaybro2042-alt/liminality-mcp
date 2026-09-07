@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "liminality": {
+      "url": "https://liminality.physea.ai/mcp",
+      "headers": {
+        "X-API-Key": "YOUR_KEY"
+      }
+    }
+  }
+}

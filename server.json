@@ -2,9 +2,13 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.physea/liminality",
   "title": "Liminality",
-  "description": "Breaks a hard question or decision into grounded sub-questions and returns a checkable route.",
-  "version": "1.0.3",
+  "description": "Breaks a hard question or decision into checkable sub-questions, grounds each to a real tool.",
+  "version": "1.0.5",
   "websiteUrl": "https://physea.ai/mcp",
+  "repository": {
+    "url": "https://github.com/jaybro2042-alt/liminality-mcp",
+    "source": "github"
+  },
   "remotes": [
     {
       "type": "streamable-http",
@@ -12,15 +16,11 @@
       "headers": [
         {
           "name": "X-API-Key",
-          "description": "Your Liminality API key (get one free at https://physea.ai/signup — first 3 solves on any key are free).",
+          "description": "Your Liminality API key. Get one free at https://physea.ai/signup — first 50 solves on any key are free. OAuth 2.1 (AuthKit) is also supported for clients that prefer browser sign-in.",
           "isRequired": true,
           "isSecret": true
         }
       ]
     }
-  ],
-  "repository": {
-    "url": "https://github.com/jaybro2042-alt/liminality-mcp",
-    "source": "github"
-  }
+  ]
 }
