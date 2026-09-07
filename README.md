@@ -4,7 +4,11 @@
 
 <p align="center">An MCP server that breaks a hard question or decision into the sub-questions that actually decide it, ties each to a real tool, and hands back a worked answer you can check.</p>
 
-<p align="center"><b><a href="https://physea.ai/mcp">Docs</a></b> · <b><a href="https://physea.ai/signup">Get a key</a></b></p>
+<p align="center"><b><a href="https://physea.ai/mcp">Docs</a></b> · <b><a href="https://physea.ai/signup">Get a free key</a></b> · <b><a href="examples/">Examples</a></b></p>
+
+<p align="center"><a href="https://glama.ai/mcp/servers/jaybro2042-alt/liminality-mcp"><img src="https://glama.ai/mcp/servers/jaybro2042-alt/liminality-mcp/badges/score.svg" alt="Liminality on Glama"></a> <a href="https://registry.modelcontextprotocol.io/v0/servers?search=ai.physea/liminality"><img src="https://img.shields.io/badge/MCP%20Registry-ai.physea%2Fliminality-blue" alt="Official MCP Registry"></a></p>
+
+<!-- mcp-name: ai.physea/liminality -->
 
 ---
 
@@ -15,13 +19,14 @@ answer for a question. It earns its keep on the work one-shot guessing gets wron
 high-stakes stuff, not quick lookups.
 
 Every solved ask is saved as a reusable route in a shared library, so the next close question
-comes back faster and cheaper. It runs as a hosted remote server over streamable HTTP. The first
-few asks on a new key are free.
+does not start from zero. It runs as a hosted remote server over streamable HTTP. New accounts
+and keys include 50 free solves.
 
 ## Install
 
 Remote server, nothing to build or run locally. Get a key at https://physea.ai/signup, then add
-it to your client.
+it to your client. Ready-to-copy files for each client are in [`examples/`](examples/), with a
+[first solve walkthrough](examples/first-solve.md).
 
 **Claude Code**
 
@@ -62,7 +67,8 @@ Add to `.vscode/mcp.json`:
 
 - **Endpoint:** `https://liminality.physea.ai/mcp`
 - **Transport:** streamable HTTP (remote, hosted)
-- **Auth:** API key via `X-API-Key` or `Authorization: Bearer`, or OAuth 2.1. Free tier on a new key.
+- **Auth:** API key via `X-API-Key` or `Authorization: Bearer`, or OAuth 2.1.
+- **Registry name:** `ai.physea/liminality` (Official MCP Registry)
 
 ## What it is
 
