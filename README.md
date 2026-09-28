@@ -109,7 +109,7 @@ how it decides, not a frozen cache of canned answers.
 
 ---
 
-© 2026 Physea. All rights reserved. "Liminality", the name, and the logo are trademarks of
+© 2026 Physea Labs. All rights reserved. "Liminality", the name, and the logo are trademarks of
 Physea. This repository is a listing for a hosted service; no rights to the service, its
 software, or its data are granted. Use of the service is governed by the terms at
 https://physea.ai/mcp.
