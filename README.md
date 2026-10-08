@@ -1,26 +1,20 @@
-<p align="center"><img src="assets/logo.png" width="120" alt="Liminality"></p>
+<p align="center"><img src="assets/logo.png" width="120" alt="Liminal"></p>
 
-<h1 align="center">Liminality</h1>
+<h1 align="center">Liminal</h1>
 
-<p align="center">An MCP server that breaks a hard question or decision into the sub-questions that actually decide it, ties each to a real tool, and hands back a worked answer you can check.</p>
+<p align="center">Augment your work with Liminal. Stop repeating yourself and build on what’s already solved.</p>
 
 <p align="center"><b><a href="https://physea.ai/mcp">Docs</a></b> · <b><a href="https://physea.ai/signup">Get a free key</a></b> · <b><a href="examples/">Examples</a></b></p>
 
-<p align="center"><a href="https://glama.ai/mcp/servers/jaybro2042-alt/liminality-mcp"><img src="https://glama.ai/mcp/servers/jaybro2042-alt/liminality-mcp/badges/score.svg" alt="Liminality on Glama"></a> <a href="https://registry.modelcontextprotocol.io/v0/servers?search=ai.physea/liminality"><img src="https://img.shields.io/badge/MCP%20Registry-ai.physea%2Fliminality-blue" alt="Official MCP Registry"></a></p>
+<p align="center"><a href="https://glama.ai/mcp/servers/jaybro2042-alt/liminality-mcp"><img src="https://glama.ai/mcp/servers/jaybro2042-alt/liminality-mcp/badges/score.svg" alt="Liminal on Glama"></a> <a href="https://registry.modelcontextprotocol.io/v0/servers?search=ai.physea/liminality"><img src="https://img.shields.io/badge/MCP%20Registry-ai.physea%2Fliminality-blue" alt="Official MCP Registry"></a></p>
 
 <!-- mcp-name: ai.physea/liminality -->
 
 ---
 
-Give Liminality a tough question, a real decision, or a multi-step task. It decomposes the
-request into the sub-questions that change the outcome, grounds each one in a real tool or
-endpoint, and returns a result you can verify: a scored decision frame for a choice, a grounded
-answer for a question. It earns its keep on the work one-shot guessing gets wrong, the hard and
-high-stakes stuff, not quick lookups.
+Liminal turns objectives into structured work by strategizing through an atomic, deterministic basis: setting guardrails around scope, compiling resources and constraints, uncovering gaps, and organizing research and next steps. All while carrying continuity and priorities forward so your AI builds on what’s already done.
 
-Every solved ask is saved as a reusable route in a shared library, so the next close question
-does not start from zero. It runs as a hosted remote server over streamable HTTP. New accounts
-and keys include 50 free solves.
+Connect easily through MCP or use the desktop app.
 
 ## Install
 
