@@ -25,7 +25,7 @@ it to your client. Ready-to-copy files for each client are in [`examples/`](exam
 **Claude Code**
 
 ```bash
-claude mcp add liminality --transport http https://liminality.physea.ai/mcp --header "X-API-Key: YOUR_KEY"
+claude mcp add liminal --transport http https://liminality.physea.ai/mcp --header "X-API-Key: YOUR_KEY"
 ```
 
 **Cursor**
@@ -35,7 +35,7 @@ Add to `~/.cursor/mcp.json`:
 ```json
 {
   "mcpServers": {
-    "liminality": {
+    "liminal": {
       "url": "https://liminality.physea.ai/mcp",
       "headers": { "X-API-Key": "YOUR_KEY" }
     }
@@ -50,7 +50,7 @@ Add to `.vscode/mcp.json`:
 ```json
 {
   "servers": {
-    "liminality": {
+    "liminal": {
       "type": "http",
       "url": "https://liminality.physea.ai/mcp",
       "headers": { "X-API-Key": "YOUR_KEY" }
@@ -66,7 +66,7 @@ Add to `.vscode/mcp.json`:
 
 ## What it is
 
-Liminality is a reasoning layer that sits between your agent and the tools it could call. Instead
+Liminal is a reasoning layer that sits between your agent and the tools it could call. Instead
 of answering from memory, it works out the structure of the request first, then routes each piece
 to something real.
 
@@ -103,7 +103,7 @@ how it decides, not a frozen cache of canned answers.
 
 ---
 
-© 2026 Physea. All rights reserved. "Liminality", the name, and the logo are trademarks of
+© 2026 Physea Labs. All rights reserved. "Liminal", the name, and the logo are trademarks of
 Physea. This repository is a listing for a hosted service; no rights to the service, its
 software, or its data are granted. Use of the service is governed by the terms at
 https://physea.ai/mcp.

@@ -1,6 +1,6 @@
 {
   "servers": {
-    "liminality": {
+    "liminal": {
       "type": "http",
       "url": "https://liminality.physea.ai/mcp",
       "headers": {

@@ -4,7 +4,7 @@
 
 In your client, with the server connected:
 
-> Use the liminality `solve` tool: "We run a small SaaS on one Postgres instance. Should we move to read replicas now or wait until the next pricing tier? Ground the answer in our current setup where you can."
+> Use the liminal `solve` tool: "We run a small SaaS on one Postgres instance. Should we move to read replicas now or wait until the next pricing tier? Ground the answer in our current setup where you can."
 
 ## What comes back
 
