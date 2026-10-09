@@ -6,7 +6,7 @@
 
 <p align="center"><b><a href="https://physea.ai/mcp">Docs</a></b> · <b><a href="https://physea.ai/signup">Get a free key</a></b> · <b><a href="examples/">Examples</a></b></p>
 
-<p align="center"><a href="https://glama.ai/mcp/servers/jaybro2042-alt/liminality-mcp"><img src="https://glama.ai/mcp/servers/jaybro2042-alt/liminality-mcp/badges/score.svg" alt="Liminal on Glama"></a> <a href="https://registry.modelcontextprotocol.io/v0/servers?search=ai.physea/liminality"><img src="https://img.shields.io/badge/MCP%20Registry-ai.physea%2Fliminality-blue" alt="Official MCP Registry"></a></p>
+<p align="center"><a href="https://glama.ai/mcp/servers/jaybro2042-alt/liminality-mcp"><img src="https://glama.ai/mcp/servers/jaybro2042-alt/liminality-mcp/badges/score.svg" alt="Liminal on Glama"></a> <a href="https://registry.modelcontextprotocol.io/v0/servers?search=ai.physea/liminality"><img src="https://img.shields.io/badge/MCP%20Registry-ai.physea%2Fliminality-blue" alt="Official MCP Registry"></a> <a href="https://smithery.ai/servers/physea/liminality"><img src="https://smithery.ai/badge/physea/liminality" alt="smithery badge"></a> <a href="https://lobehub.com/mcp/jaybro2042-alt-liminality-mcp"><img src="https://lobehub.com/badge/mcp/jaybro2042-alt-liminality-mcp" alt="MCP Badge"></a></p>
 
 <!-- mcp-name: ai.physea/liminality -->
 
